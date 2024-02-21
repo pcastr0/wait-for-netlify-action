@@ -4,6 +4,9 @@ branding:
   icon: 'clock'
   color: 'blue'
 inputs:
+  git_branch:
+    description: 'The branch name to test against'
+    required: true
   site_name:
     description: 'The Netlify site name to test against'
     required: true
